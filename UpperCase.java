@@ -4,7 +4,7 @@ public class UpperCase {
         public static void main(String[] args) {
             toUppercase("Hello, World!");
         }
-        public static void toUppercase(String str) {
+        public static String toUppercase(String str) {
             String result = "";
             for (int i = 0; i < str.length(); i++) {
                 char ch = str.charAt(i);
@@ -14,6 +14,6 @@ public class UpperCase {
                     result += ch;
                 }
             }
-            System.out.println(result);
+                return result;
         }
 }
