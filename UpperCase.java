@@ -1,9 +1,6 @@
 package ToUpperCase;
 
 public class UpperCase {
-    // Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
         public static void main(String[] args) {
             toUppercase("Hello, World!");
         }
