@@ -2,7 +2,7 @@ package ToUpperCase;
 
 public class UpperCase {
         public static void main(String[] args) {
-            toUppercase("Hello, World!");
+            System.out.println(toUppercase("Hello, World!"));
         }
         public static String toUppercase(String str) {
             String result = "";
